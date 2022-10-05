@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<typeAlias type="com.player0.home" />
+		<!-- TODO 404에러 resultMap이나 resultType을 패키지 경로와 클래스명을 길게 쓰지 않기 위해 -->
+		<!-- <typeAlias type="com.player0.app.model.BoardVo" alias="BoardVo"/> -->
+		<!-- <typeAlias type="com.player0.app.model.BoardReVo" alias="BoardReVo"/> -->
+	</typeAliases>
+</configuration>
