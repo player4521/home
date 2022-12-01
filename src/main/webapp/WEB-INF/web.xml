@@ -40,7 +40,7 @@
 
 	<!-- 시작 페이지 지정 위에서부터 순차조회 -->
 	<welcome-file-list>
-		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>main.jsp</welcome-file>
 		<welcome-file>home.jsp</welcome-file>
 	</welcome-file-list>
 
