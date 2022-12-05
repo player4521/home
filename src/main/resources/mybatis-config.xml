@@ -3,10 +3,14 @@
   PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
+	<!-- 데이터베이스의 컬럼명을 카멜케이스로 자동 매칭 -->
+	<settings>
+		<setting name="mapUnderscoreToCamelCase" value="true" />
+	</settings>
 	<typeAliases>
+		<!-- <package name="com.player0.home" /> -->
 		<typeAlias type="com.player0.home" />
-		<!-- TODO 404에러 resultMap이나 resultType을 패키지 경로와 클래스명을 길게 쓰지 않기 위해 -->
-		<!-- <typeAlias type="com.player0.app.model.BoardVo" alias="BoardVo"/> -->
-		<!-- <typeAlias type="com.player0.app.model.BoardReVo" alias="BoardReVo"/> -->
+		<!-- <typeAlias type="com.player0.home.model.BoardVo" alias="BoardVo"/> -->
+		<!-- <typeAlias type="com.player0.home.model.BoardReVo" alias="BoardReVo"/> -->
 	</typeAliases>
 </configuration>

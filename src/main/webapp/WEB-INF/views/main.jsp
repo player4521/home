@@ -22,8 +22,8 @@
 				<h1>Search area</h1>
 			</div>
 			<div class="login_area">
-				<div class="login_button"><a href="/member/login">Sign In</a></div>
-				<span><a href="/member/join">Create Account</a></span>
+				<div class="login_button"><a href="/player/signIn">Sign In</a></div>
+				<span><a href="/player/signUp">Sign Up</a></span>
 			</div>
 			<div class="clearfix"></div>			
 		</div>

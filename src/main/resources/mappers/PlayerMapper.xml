@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.player0.home.mappers.PlayerMapper">
+    <!-- 회원가입 -->
+	<insert id="signUp">
+		INSERT INTO PLAYERS (
+		    PLAYER_NO
+		    ,PLAYER_PW
+		    ,PLAYER_NAME
+		    ,PLAYER_ID
+		    ,PLAYER_PHONE_NO
+		    ,PLAYER_MAIL
+		    ,PLAYER_ADDRESS1
+		    ,PLAYER_ADDRESS2
+		    ,PLAYER_ADDRESS3
+		    ,REG_DATE
+		) VALUES (
+		    #{playerNo}
+		    ,#{playerPw}
+		    ,#{playerName}
+		    ,#{playerId}
+		    ,#{playerPhoneno}
+		    ,#{playerMail}
+		    ,#{playerAddress1}
+		    ,#{playerAddress2}
+		    ,#{playerAddress3}
+		    ,SYSDATE
+		)
+	</insert>
+</mapper>
